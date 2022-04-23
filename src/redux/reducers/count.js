@@ -1,4 +1,4 @@
-import {INCREMENT, DECREMENT} from "./constant";
+import {INCREMENT, DECREMENT} from "../constant";
 
 const initState = 0 //设置初始化状态
 const countReducer = (preState=initState, action) => {
