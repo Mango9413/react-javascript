@@ -1,12 +1,10 @@
 import './App.css';
 import Count from './containers/Count';
 
-function App() {
+export default function App (){
   return (
     <div>
       <Count/>
     </div>
   );
 }
-
-export default App;
