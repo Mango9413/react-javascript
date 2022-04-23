@@ -44,6 +44,7 @@ class Count extends Component {
 //         decrement: number => dispatch(createDecrement(number)),
 //         incrementAsync: (number, time) => dispatch(createIncrementAsync(number, time)),
 //     })
+
 export default connect(
     state => ({count:state}),
     {
