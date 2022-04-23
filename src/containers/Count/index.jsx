@@ -21,7 +21,6 @@ class Count extends Component {
         const {value} = this.selectNumber
         this.props.incrementAsync(value*1, 1000)
     }
-
     render() {
         return (
             <div>
@@ -39,15 +38,12 @@ class Count extends Component {
         );
     }
 }
-
 // const mapStateToProps = state => ({count:state})
-
 // const mapDispatchToProps = dispatch => ({
 //         increment: number => dispatch(createIncrement(number)),
 //         decrement: number => dispatch(createDecrement(number)),
 //         incrementAsync: (number, time) => dispatch(createIncrementAsync(number, time)),
 //     })
-
 export default connect(
     state => ({count:state}),
     {
