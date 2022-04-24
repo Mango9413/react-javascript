@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Count/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Person/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/count.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/person.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/constant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/count.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/person.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
-    </list>
+    <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +38,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -100,6 +80,7 @@
       <workItem from="1650752538017" duration="8397000" />
       <workItem from="1650761659249" duration="586000" />
       <workItem from="1650807220599" duration="75000" />
+      <workItem from="1650807305405" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -157,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650761235985</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modify">
+      <created>1650807352016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650807352016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
