@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/components/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/components/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-airbnb/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="287ukP8te252ZTPg7BnGDQpRtqP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +99,9 @@
       <workItem from="1650848286603" duration="611000" />
       <workItem from="1650894318658" duration="6000" />
       <workItem from="1650897430897" duration="3621000" />
-      <workItem from="1650902735242" duration="4344000" />
+      <workItem from="1650902735242" duration="7150000" />
+      <workItem from="1650914399374" duration="84000" />
+      <workItem from="1650914569928" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -160,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650809414174</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modify">
+      <created>1650910834415</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650910834415</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
