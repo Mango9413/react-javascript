@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/ExpenseDate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/ExpenseDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/UI/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/UI/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-expense/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseDate.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseDate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="287ukP8te252ZTPg7BnGDQpRtqP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,7 +54,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/learning/cityview&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/learning/my-react&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,6 +68,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learning\react-redux\react-expense\src\components\Expenses" />
+      <recent name="D:\learning\react-redux\react-expense\src\components\UI" />
       <recent name="D:\learning\react-redux\react-airbnb\src" />
       <recent name="D:\learning\react-redux\src\redux\reducers" />
       <recent name="D:\learning\react-redux\src\redux\actions" />
@@ -96,7 +103,11 @@
       <workItem from="1650897430897" duration="3621000" />
       <workItem from="1650902735242" duration="7150000" />
       <workItem from="1650914399374" duration="84000" />
-      <workItem from="1650914569928" duration="6610000" />
+      <workItem from="1650914569928" duration="6854000" />
+      <workItem from="1650927821034" duration="2000" />
+      <workItem from="1650927969648" duration="2000" />
+      <workItem from="1650936260291" duration="5492000" />
+      <workItem from="1650945679105" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -182,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650914983637</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modify">
+      <created>1650927704657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650927704657</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
