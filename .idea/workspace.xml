@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify" />
+    <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +100,7 @@
       <workItem from="1650936260291" duration="5492000" />
       <workItem from="1650945679105" duration="786000" />
       <workItem from="1650980399294" duration="14677000" />
-      <workItem from="1650999272055" duration="10758000" />
+      <workItem from="1650999272055" duration="11794000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -238,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651012575287</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modify">
+      <created>1651012803676</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651012803676</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

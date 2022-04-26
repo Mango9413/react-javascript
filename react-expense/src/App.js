@@ -10,7 +10,11 @@ const INITIAL_EXPENSES = [
         amount: 94.12,
         date: new Date(2020, 7, 14),
     },
-    {id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12)},
+    {
+        id: 'e2',
+        title: 'New TV',
+        amount: 799.49,
+        date: new Date(2021, 2, 12)},
     {
         id: 'e3',
         title: 'Car Insurance',
@@ -27,7 +31,7 @@ const INITIAL_EXPENSES = [
         id: 'e5',
         title: 'Jacket',
         amount: 599.99,
-        date: new Date(2021, 10, 31)
+        date: new Date(2021, 8, 30)
     }
 ];
 
