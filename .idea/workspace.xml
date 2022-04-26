@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/UI/Card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-expense/src/components/UI/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/NewExpense/ExpenseForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/NewExpense/NewExpense.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/NewExpense/NewExpense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-expense/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseDate.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseDate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,8 @@
       <workItem from="1650927821034" duration="2000" />
       <workItem from="1650927969648" duration="2000" />
       <workItem from="1650936260291" duration="5492000" />
-      <workItem from="1650945679105" duration="489000" />
+      <workItem from="1650945679105" duration="786000" />
+      <workItem from="1650980399294" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -200,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650927704657</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modify">
+      <created>1650946320493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650946320493</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modify">
+      <created>1650946324685</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650946324685</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +231,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify" />
     <option name="LAST_COMMIT_MESSAGE" value="modify" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
