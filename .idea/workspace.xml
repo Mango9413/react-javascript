@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Chart/Chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Chart/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Chart/ChartBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Chart/ChartBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpensesChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpensesList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpensesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/NewExpense/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/NewExpense/NewExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/NewExpense/NewExpense.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +109,7 @@
       <workItem from="1650936260291" duration="5492000" />
       <workItem from="1650945679105" duration="786000" />
       <workItem from="1650980399294" duration="14677000" />
+      <workItem from="1650999272055" duration="10380000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -226,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650998957629</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="modify">
+      <created>1650999331862</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650999331862</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
