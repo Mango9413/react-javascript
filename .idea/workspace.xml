@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="287ukP8te252ZTPg7BnGDQpRtqP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +98,7 @@
       <workItem from="1650927969648" duration="2000" />
       <workItem from="1650936260291" duration="5492000" />
       <workItem from="1650945679105" duration="786000" />
-      <workItem from="1650980399294" duration="14185000" />
+      <workItem from="1650980399294" duration="14677000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
@@ -221,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650993994856</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modify">
+      <created>1650998957629</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650998957629</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,18 +246,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify" />
     <option name="LAST_COMMIT_MESSAGE" value="modify" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js</url>
-          <line>2</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
