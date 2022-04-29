@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import styled from './AddUser.module.css'
@@ -9,10 +9,10 @@ const AddUser = (props) => {
 
     const addUserHandler = (event) => {
         event.preventDefault();
-        if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0){
+        if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0) {
             return
         }
-        if (enteredAge*1 < 0){
+        if (enteredAge * 1 < 0) {
             return;
         }
         props.onAddUser(enteredUsername, enteredAge)
