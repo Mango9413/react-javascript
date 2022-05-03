@@ -29,7 +29,7 @@ const Cart = (props) => {
 
     const submitOrderHandler = async (userData) => {
         setIsSubmit(true)
-        await fetch('https://fancy-foodorder-default-rtdb.firebaseio.com/', {
+        await fetch('https://fancy-foodorder-default-rtdb.firebaseio.com/orders.json', {
             method: 'POST',
             body: JSON.stringify({
                 user: userData,
@@ -72,7 +72,9 @@ const Cart = (props) => {
     const didSubmitModalContent = (
         <React.Fragment>
             <p>Successfully sent the order!</p>
-            <button className={classes.button} onClick={props.onClose}>Close</button>
+            <div className={classes.actions}>
+                <button className={classes.button} onClick={props.onClose}>Close</button>
+            </div>
         </React.Fragment>
     )
 
