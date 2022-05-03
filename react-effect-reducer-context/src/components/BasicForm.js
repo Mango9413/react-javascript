@@ -24,7 +24,7 @@ const BasicForm = () => {
     const formSubmitHandler = (event) => {
         event.preventDefault()
 
-        if (!enteredFirstNameIsValid) {
+        if (!formIsValid) {
             return
         }
 
