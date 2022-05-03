@@ -1,12 +1,10 @@
-import Count from './containers/Count';
-import Person from "./containers/Person";
+import Counter from './components/Counter';
 
-export default function App() {
-    return (
-        <div>
-            <Count/>
-            <hr/>
-            <Person/>
-        </div>
-    );
+
+function App() {
+  return (
+    <Counter />
+  );
 }
+
+export default App;
