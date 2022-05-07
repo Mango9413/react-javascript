@@ -1,13 +1,14 @@
 import React from 'react';
-import {Route} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 const Welcome = () => {
     return (
         <section>
             <h2>The welcome page.</h2>
-            <Route path='/welcome/new-user'>
-                <p>Welcome, new user!</p>
-            </Route>
+            <Routes>
+                {/*You won't need custom path resolving the route inside parents*/}
+                <Route path='new-user' element={<p>Welcome, new user!</p>} />
+            </Routes>
         </section>
     );
 };

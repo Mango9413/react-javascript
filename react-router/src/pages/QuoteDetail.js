@@ -1,10 +1,12 @@
 import React, {Fragment, useEffect} from 'react';
 import {Link, Route, useParams, useRouteMatch} from "react-router-dom";
+
+import LoadingSpinner from "../components/UI/LoadingSpinner";
 import Comments from "../components/comments/Comments";
 import HighlightedQuote from "../components/quotes/HighlightedQuote";
+
 import useHttp from "../hooks/use-http";
 import {getSingleQuote} from "../lib/api";
-import LoadingSpinner from "../components/UI/LoadingSpinner";
 
 const QuoteDetail = () => {
     const match = useRouteMatch()
@@ -14,7 +16,7 @@ const QuoteDetail = () => {
 
     const {sendRequest, status, data: loadedQuote, error} = useHttp(getSingleQuote, true)
 
-    useEffect(()=>{
+    useEffect(() => {
         sendRequest(quoteId)
     }, [sendRequest, quoteId])
 
