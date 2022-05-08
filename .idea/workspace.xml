@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962ad638-6744-473c-933e-10acee62ea62" name="Changes" comment="modify">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-28_10_31_p_m__[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-28_10_31_p_m___Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/.idea/react-expense.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/react-expense-mindset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Chart/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Chart/ChartBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseDate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpenseItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/Expenses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpensesChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpensesFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/Expenses/ExpensesList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/NewExpense/ExpenseForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/NewExpense/NewExpense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/components/UI/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-expense/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +143,7 @@
       <workItem from="1651359725367" duration="3000" />
       <workItem from="1651375561925" duration="816000" />
       <workItem from="1651424777993" duration="12000" />
+      <workItem from="1652026443405" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1650749859115</created>
