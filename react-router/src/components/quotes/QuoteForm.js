@@ -1,11 +1,13 @@
-import {Fragment, useRef, useState} from 'react';
-import {Prompt} from "react-router-dom";
+import {Fragment, useRef} from 'react';
+// import {Prompt} from "react-router-dom";
+//router v6 prompt没了 暂时没有替代
+
 import Card from '../UI/Card';
 import LoadingSpinner from '../UI/LoadingSpinner';
 import classes from './QuoteForm.module.css';
 
 const QuoteForm = (props) => {
-  const [isEntering, setIsEntering] = useState(false)
+  // const [isEntering, setIsEntering] = useState(false)
 
   const authorInputRef = useRef();
   const textInputRef = useRef();
@@ -21,23 +23,25 @@ const QuoteForm = (props) => {
     props.onAddQuote({ author: enteredAuthor, text: enteredText });
   }
 
-  const formFocusHandler = () => {
-    setIsEntering(true)
-  }
-
-  const finishEnteringHandler = () => {
-    setIsEntering(false)
-  }
+  // const formFocusHandler = () => {
+  //   setIsEntering(true)
+  // }
+  //
+  // const finishEnteringHandler = () => {
+  //   setIsEntering(false)
+  // }
 
   return (
       <Fragment>
-        <Prompt
-            when={isEntering}
-            message={()=> 'Are you sure you want to leave? All your entered data will be lost!!'} />
+        {/*<Prompt*/}
+        {/*    when={isEntering}*/}
+        {/*    message={(location)=> */}
+        {/*        'Are you sure you want to leave? All your entered data will be lost!!'*/}
+        {/*} />*/}
         <Card>
           <form
               onSubmit={submitFormHandler}
-              onFocus={formFocusHandler}
+              // onFocus={formFocusHandler}
               className={classes.form}
           >
             {props.isLoading && (
@@ -55,7 +59,11 @@ const QuoteForm = (props) => {
               <textarea id='text' rows='5' ref={textInputRef}></textarea>
             </div>
             <div className={classes.actions}>
-              <button onClick={finishEnteringHandler} className='btn'>Add Quote</button>
+              <button
+                  // onClick={finishEnteringHandler}
+                  className='btn'>
+                Add Quote
+              </button>
             </div>
           </form>
         </Card>
