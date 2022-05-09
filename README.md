@@ -52,3 +52,9 @@
 
 ## 10. Router
 - building a multi-page SPA with Router
+
+## 11. Lazy Loading
+- import React and {Suspense}
+- const 组件名 = React.lazy(()=>import('./组件路径'))
+- 用Suspense包裹Route标签并指定fallback，否则会无法跳转到lazy loading的页面
+  -<Suspense fallback={<p>Loading...</p>}> <Route/> </Suspense> 
