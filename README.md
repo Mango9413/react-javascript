@@ -1,8 +1,8 @@
 ## LEARNING NOTES
 
 ## 1.  react basic & props
-  - useState to passing data via 'props'
-  - use re-usable UI composition via {props.children}
+  - `useState()` to passing data via 'props'
+  - use re-usable UI composition via `{props.children}`
   - user interaction & state
   - working with multiple states (one or more state)
     - updating state that depends on the previous state
@@ -41,7 +41,7 @@
 - connecting to a database
   - use async and await to get data from back-end
   - handle loading & data states
-  - using useEffect() for sending requests
+  - using `useEffect()` for sending requests
 - Build Custom React Hooks 
   - 使用useCustomHooksName让react知道这是一个hook 
   - 可传参数，可return 
@@ -53,8 +53,42 @@
 ## 10. Router
 - building a multi-page SPA with Router
 
-## 11. Lazy Loading
-- import React and {Suspense}
-- const 组件名 = React.lazy(()=>import('./组件路径'))
+## 11. Form
+- 更新的表单是一个object
+    ```
+    const [formData, setFormDate] = useState({
+        firstName: '',
+        lastName: '',
+        email: ''
+    })
+
+    const changeHandler = (evt) => {
+        let name = evt.target.name
+        let value = evt.target.value
+        console.log()
+        setFormDate(state => ({...state, [name]: value}))
+    }
+
+    <form onSubmit={submitHandler}>
+      <label>First Name</label>
+      <input
+        type='text'
+        name='firstName'
+        value={formData.firstName}
+        onChange={changeHandler}
+        required
+      />
+    </form>
+    ```
+- Authentication
+  - 
+
+## 12. Lazy Loading
+- `import React and {Suspense}`
+- `const 组件名 = React.lazy(()=>import('./组件路径'))`
 - 用Suspense包裹Route标签并指定fallback，否则会无法跳转到lazy loading的页面
-  -<Suspense fallback={<p>Loading...</p>}> <Route/> </Suspense> 
+  ```
+  <Suspense fallback={<p>Loading...</p>}>
+    <Route/>
+  </Suspense>
+  ```
