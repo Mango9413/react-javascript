@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import {MongoClient, ObjectId} from "mongodb";
 import Head from "next/head";
 import MeetupDetail from "../../components/meetups/MeetupDetail";
+import {mongoUrl} from "../consts";
 
 const MeetupDetails = (props) => {
     return (
@@ -26,7 +27,7 @@ const MeetupDetails = (props) => {
 };
 
 export async function getStaticPaths() {
-    const client = await MongoClient.connect('mongodb+srv://mango2022:LinG2UTi72HuN4Ip@cluster0.z3kdn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+    const client = await MongoClient.connect(mongoUrl)
     const db = client.db()
 
     const meetupsCollection = db.collection('meetups')
